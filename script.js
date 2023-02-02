@@ -8,7 +8,7 @@ $("body").terminal(
       }
 
       this.echo(
-        "[[b;; ]Available commands]\n[[b;purple; ]man]\n   followed by the name of a command displays its manual\n[[b;purple; ]alyso.kinda]\n   a quick presentation of myself\n[[b;purple; ]cv]\n   will redirect you to the pdf version of my cv\n[[b;purple; ]mail]\n   will open your default mail app to send me an email\n[[b;purple; ]projects]\n   will display all my projects\n[[b;purple; ]socials]\n   will display all my social media links\n[[b;purple; ]credits]\n   who i took inspiration from for this website",
+        "[[b;; ]Available commands]\n[[b;purple; ]man]\n   followed by the name of a command displays its manual\n[[b;purple; ]alyso.kinda]\n   a quick presentation of myself\n[[b;purple; ]cv]\n   will redirect you to the pdf version of my cv\n[[b;purple; ]mail]\n   will open your default mail app to send me an email\n[[b;purple; ]projects]\n   will display all my projects\n[[b;purple; ]socials]\n   will display all my social media links",
         { typing: true, delay: 0 }
       );
     },
@@ -43,9 +43,9 @@ $("body").terminal(
             "will display all my social media links\n     [[b;;]-gh] : will redirect you to my github profile\n     [[b;;]-io] : will redirect you to my itch.io profile\n     [[b;;]-fb] : will redirect you to my facebook profile\n     [[b;;]-lk] : redirect you to my linkedin profile"
           );
           break;
-        case "credits":
-          this.echo("who i took inspiration from for this website");
-          break;
+        //case "credits":
+          //this.echo("who i took inspiration from for this website");
+          //break;
         default:
           this.error("invalid argument");
       }
@@ -155,13 +155,13 @@ $("body").terminal(
       }
     },
     //CREDITS
-    credits: function (...args) {
-      if (args.length != 0) {
-        this.error("invalid syntax");
-        return;
-      }
-      this.echo("inspirations");
-    },
+    //credits: function (...args) {
+      //if (args.length != 0) {
+        //this.error("invalid syntax");
+        //return;
+      //}
+      //this.echo("inspirations");
+    //},
   },
   {
     checkArity: false,
