@@ -182,13 +182,13 @@ var web =
   "My web development projects :\n - a static cv website : [[!;;]https://alysono.github.io/PersonalWebsite/]\n - some of the rest can/will be found on my github";
 
 var github =
-  "Not much to see on my github : [[!;;]https://github.com/AlysonO/]";
+  " - Not much to see on my github : [[!;;]https://github.com/AlysonO/]";
 
 var itch =
-  "I like games a lot so i also have a itch.io : [[!;;]https://alysono.itch.io/]";
+  " - I like games a lot so i also have a itch.io : [[!;;]https://alysono.itch.io/]";
 
 var facebook =
-  "I don't like this one much : [[!;;]https://www.facebook.com/alyson.okinda.7]";
+  " - I don't like this one much : [[!;;]https://www.facebook.com/alyson.okinda.7]";
 
 var linkedin =
-  "I do have to network : [[!;;]https://www.linkedin.com/in/alyson-okinda-893a63226/]";
+  " - I do have to network : [[!;;]https://www.linkedin.com/in/alyson-okinda-893a63226/]";
